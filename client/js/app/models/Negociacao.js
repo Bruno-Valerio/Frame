@@ -5,19 +5,19 @@ class Negociacao {
         this._valor = valor;
     }
 
-    getData(){
+    get Data(){
         return this._data;
     }
 
-    getQuantidade(){
+    get Quantidade(){
         return this._quantidade;
     }
 
-    getValor(){
+    get Valor(){
         return this._valor;
     }
 
-    getVolume(){
+    get Volume(){
         return this._quantidade * this._valor;
     }
 }
